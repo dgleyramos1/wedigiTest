@@ -1,0 +1,21 @@
+
+.notificationBarInner--notificacao {
+    background-color:#1DB8FB;
+}
+
+.notificationBarContainer--notificacao{
+    background: url("../../img/iconeFrete.png") left center no-repeat;
+}
+
+.autoCompleteOuterContainer{
+    background: none;
+    color: white;
+}
+.seacrhBarContainer{
+    background: none;
+    border: none;
+}
+
+.searchIcon{
+    color: #fff;
+}
