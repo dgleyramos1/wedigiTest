@@ -96,6 +96,7 @@
     position: relative;
     left: 0px;
     top: -110px;
+    margin-bottom: 0;
 }
 
 .imageElement--imagem {
@@ -113,3 +114,92 @@
     margin: 10px;
 }
 
+
+.infoCardContainer--info-plataforma {
+    width: 360px;
+    height: 200px;
+    border: none;
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    /* Primário / Main Color */
+
+    background: #1DB8FB;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.infoCardHeadline--info-plataforma{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: end;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardCallActionContainer--info-plataforma {
+    display: none;
+}
+
+.infoCardImage--info-plataforma {
+    height: 197px;
+    width: 182px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+
+.infoCardContainer--info-plataformamobile {
+    width: 330px;
+    height: 175px;
+    border: none;
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    /* Primário / Main Color */
+
+    background: #1DB8FB;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.infoCardHeadline--info-plataformamobile{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: end;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardCallActionContainer--info-plataformamobile {
+    display: none;
+}
+
+.infoCardImage--info-plataformamobile {
+    height: 171px;
+    width: 155px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-bottom: 80px;
+}

@@ -9,8 +9,9 @@
     "children": [
       "info-card#paineldesktop",
       "rich-text#destaquesdesktop",
-      "slider-layout#homedesktop"
-      
+      "slider-layout#homedesktop",
+      "rich-text#plataformadesktop",
+      "flex-layout.row#plataformas"      
     ]
   },
   "info-card#paineldesktop": {
@@ -24,7 +25,7 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "bannerOne"
     }
-  },  
+  },
   "rich-text#destaquesdesktop": {
     "props": {
       "textAlignment": "LEFT",
@@ -35,13 +36,160 @@
       "blockClass": "destaquedesktop"
     }
   },
+  "rich-text#plataformadesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Busque por plataforma",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
+  },
+  "flex-layout.row#plataformas": {
+    "children": [
+      "flex-layout.col#playstation",
+      "flex-layout.col#xbox",
+      "flex-layout.col#nitendo",
+      "flex-layout.col#pc"
+    ]
+  },
+  "flex-layout.col#playstation": {
+    "props": {
+      "blockClass": "infoCol"
+    },
+    "children" : [
+      "info-card#playstation"
+    ]
+  },
+  "flex-layout.col#xbox": {
+    "props": {
+      "blockClass": "infoCol"
+    },
+    "children" : [
+      "info-card#xbox"
+    ]
+  },
+  "flex-layout.col#nitendo": {
+    "props": {
+      "blockClass": "infoCol"
+    },
+    "children" : [
+      "info-card#nitendo"
+    ]
+  },
+  "flex-layout.col#pc": {
+    "props": {
+      "blockClass": "infoCol"
+    },
+    "children" : [
+      "info-card#pc"
+    ]
+  },
+  "info-card#playstation": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "center",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/playstation.png",
+      "headline": "Playstation",
+      "blockClass": "info-plataforma"
+    }
+  },
+  "info-card#xbox": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/xbox.png",
+      "headline": "Xbox",
+      "blockClass": "info-plataforma"
+    }
+  },
+  "info-card#nitendo": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/nitendo.png",
+      "headline": "Nintendo Wii",
+      "blockClass": "info-plataforma"
+    }
+  },
+  "info-card#pc": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/pc.png",
+      "headline": "PC Windows",
+      "blockClass": "info-plataforma"
+    }
+  },
   "responsive-layout.phone": {
     "children": [
       "info-card#painelmobile",
       "rich-text#destaquesmobile",
-      "slider-layout#homemobile"
+      "slider-layout#homemobile",
+      "rich-text#plataformamobile",
+      "flex-layout.row#plataformasmobile"
     ]
-  },  
+  },
+  "flex-layout.row#plataformasmobile": {
+    "props": {
+      "blockClass": "plataformasmobile"
+    },
+    "children": [
+      "info-card#playstationmobile",
+      "info-card#xboxmobile",
+      "info-card#nitendomobile",
+      "info-card#pcmobile"
+    ]
+  },
+  "rich-text#plataformamobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Busque por plataforma",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
+  },
+  "info-card#playstationmobile": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/playstation.png",
+      "headline": "Playstation",
+      "blockClass": "info-plataformamobile"
+    }
+  },
+  "info-card#xboxmobile": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/xbox.png",
+      "headline": "Xbox",
+      "blockClass": "info-plataformamobile"
+    }
+  },
+  "info-card#nitendomobile": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/nitendo.png",
+      "headline": "Nintendo Wii",
+      "blockClass": "info-plataformamobile"
+    }
+  },
+  "info-card#pcmobile": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/plataformas/pc.png",
+      "headline": "PC Windows",
+      "blockClass": "info-plataformamobile"
+    }
+  },
   "rich-text#destaquesmobile": {
     "props": {
       "textAlignment": "LEFT",
