@@ -1,0 +1,28 @@
+.paragraph--destaquemobile {
+    padding-left: 20px;
+    border-left: 5px solid #4839FF;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 560px;
+    align-items: center;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+
+.container--destaquedesktop {
+    padding-left: 20px;
+    border-left: 5px solid #4839FF;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 826px;
+    align-items: center;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}

@@ -8,7 +8,9 @@
   "responsive-layout.desktop": {
     "children": [
       "info-card#paineldesktop",
-      "slider-layout#home"
+      "rich-text#destaquesdesktop",
+      "slider-layout#homedesktop"
+      
     ]
   },
   "info-card#paineldesktop": {
@@ -22,12 +24,33 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "bannerOne"
     }
+  },  
+  "rich-text#destaquesdesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Destaques da semana",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "destaquedesktop"
+    }
   },
   "responsive-layout.phone": {
     "children": [
       "info-card#painelmobile",
-      "__fold__"
+      "rich-text#destaquesmobile",
+      "slider-layout#homemobile"
     ]
+  },  
+  "rich-text#destaquesmobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Destaques da semana",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "destaquemobile"
+    }
   },
   "info-card#painelmobile": {
     "props": {

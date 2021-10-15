@@ -68,7 +68,7 @@
     position: absolute;
     width: 374px;
     height: 32px;
-    top: 440px;
+    top: 350px;
     text-align: center;
 }
   
@@ -91,5 +91,25 @@
     height: 740px;
     width: 100%;
     border: none;
+}
+.infoCardContainer--bannerOneMobile {
+    position: relative;
+    left: 0px;
+    top: -110px;
+}
+
+.imageElement--imagem {
+    max-width: 316px;
+    min-width: 257;
+    max-height: 450px;
+    min-height: 420;
+    margin: 5px;
+}
+.imageElement--imagemMobile {
+    width: 257px;
+    height: 420px;
+}
+.slideChildrenContainer{
+    margin: 10px;
 }
 
