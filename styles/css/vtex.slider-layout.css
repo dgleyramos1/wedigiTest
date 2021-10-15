@@ -9,3 +9,7 @@
 .paginationDot--isActive {
     background: #1DB8FB;
 }
+
+.paginationDot {
+    margin-bottom: 60px;
+}

@@ -12,10 +12,60 @@
       "slider-layout#homedesktop",
       "rich-text#plataformadesktop",
       "flex-layout.row#plataformas",
-      "flex-layout.row#embreve",
+      "info-card#embreve",
       "rich-text#altadesktop",
-      "slider-layout#homedesktop"
+      "slider-layout#homedesktop",
+      "flex-layout.row#bannersdesktop"
     ]
+  },
+  "flex-layout.row#bannersdesktop": {
+    "props": {
+      "blockClass": "containerBanner"
+    },
+    "children": [
+      "flex-layout.col#banner1desktop",
+      "flex-layout.col#banner2desktop"
+    ]
+  },
+  "flex-layout.col#banner1desktop":{
+    "props": {
+      "blockClass": "colunamini"
+    },
+      "children": [
+        "info-card#banner1desktop"
+      ]
+  },
+  "flex-layout.col#banner2desktop":{
+    "props": {
+      "blockClass": "colunamini"
+    },
+    "children": [
+      "info-card#banner2desktop"
+    ]
+},
+  "info-card#banner1desktop": {
+    "props": {
+      "id": "bannermini",
+      "isFullModeStyle": true,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/nostalgia.png",
+      "headline": "Sessão Nostalgia",
+      "subhead": "Encontre os jogos favoritos da sua infância.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerMini"
+    }
+  },
+  "info-card#banner2desktop": {
+    "props": {
+      "id": "bannermini",
+      "isFullModeStyle": true,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/olimpiadas.png",
+      "headline": "No clima das Olimpíadas",
+      "subhead": "Os melhores jogos esportivos estão aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerMini"
+    }
   },
   "rich-text#altadesktop": {
     "props": {
@@ -26,14 +76,6 @@
       "font": "t-heading-5",
       "blockClass": "plataformadesktop"
     }
-  },
-  "flex-layout.row#embreve": {
-    "props": {
-      "blockClass": "embreve"
-    },
-    "children": [
-      "info-card#embreve"
-    ]
   },
   "info-card#embreve": {
     "props": {
@@ -171,8 +213,34 @@
       "flex-layout.row#plataformasmobile",
       "info-card#embrevemobile",
       "rich-text#altamobile",
-      "slider-layout#homemobile"
+      "slider-layout#homemobile",
+      "info-card#banner1mobile",
+      "info-card#banner2mobile"
     ]
+  },
+  "info-card#banner1mobile": {
+    "props": {
+      "id": "bannermini",
+      "isFullModeStyle": true,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/nostalgia.png",
+      "headline": "Sessão Nostalgia",
+      "subhead": "Encontre os jogos favoritos da sua infância.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerMinimobile"
+    }
+  },
+  "info-card#banner2mobile": {
+    "props": {
+      "id": "bannermini",
+      "isFullModeStyle": true,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/olimpiadas.png",
+      "headline": "No clima das Olimpíadas",
+      "subhead": "Os melhores jogos esportivos estão aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerMinimobile"
+    }
   },
   "rich-text#altamobile": {
     "props": {

@@ -17,11 +17,9 @@
 }
 
 .infoCardTextContainer--bannerOne{
-    position: absolute;
     width: 565px;
     height: 52px;
-    left: 60px;
-    top: 530px;
+    margin-bottom: 180px;
 }
 
 .infoCardHeadline--bannerOne {
@@ -74,12 +72,11 @@
 
 
 .infoCardContainer--bannerOne {
-    position: relative;
-    left: 0px;
-    top: -110px;
     height: 740px;
     width: 100%;
     border: none;
+    display: flex;
+    align-items: flex-end;
 }
 .infoCardContainer--bannerOneMobile {
     position: relative;
@@ -194,6 +191,8 @@
 }
 
 .infoCardContainer--bannerEmbreve {
+    width: 95%;
+    margin: 0 auto;
     height: 720px;
     display: flex;
     justify-content: right;
@@ -207,6 +206,7 @@
     margin-right: 237px;
     margin-top: -100px;
     padding: 0;
+    border-radius: 5px;
 }
 
 .infoCardHeadline--bannerEmbreve {
@@ -266,6 +266,7 @@
     align-items: center;
     text-align: right;
     border: none;
+    border-radius: 5px;
 }
 .infoCardTextContainer--bannerEmbrevemobile {
     text-align: right;
@@ -294,6 +295,82 @@
     font-size: 12px;
     line-height: 28px;
     /* identical to box height, or 233% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+
+.infoCardContainer--bannerMini {
+    width: 750px;
+    height: 585px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infoCardTextContainer--bannerMini {
+    width: 500px;
+}
+.infoCardHeadline--bannerMini {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardSubhead--bannerMini {
+    margin-bottom: -10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    letter-spacing: 0.02em;
+    /* Neutro / White */
+    color: #FFFFFF;
+}
+
+.infoCardContainer--bannerMinimobile {
+    width: 95%;
+    height: 585px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.infoCardHeadline--bannerMinimobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height, or 118% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardSubhead--bannerMinimobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
 
     letter-spacing: 0.02em;
 
