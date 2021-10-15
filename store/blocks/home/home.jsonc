@@ -15,8 +15,20 @@
       "info-card#embreve",
       "rich-text#altadesktop",
       "slider-layout#homedesktop",
-      "flex-layout.row#bannersdesktop"
+      "flex-layout.row#bannersdesktop",
+      "rich-text#promocoesdesktop",
+      "slider-layout#homedesktop"
     ]
+  },
+  "rich-text#promocoesdesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Aproveite nossas promoções",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
   },
   "flex-layout.row#bannersdesktop": {
     "props": {
@@ -215,14 +227,26 @@
       "rich-text#altamobile",
       "slider-layout#homemobile",
       "info-card#banner1mobile",
-      "info-card#banner2mobile"
+      "info-card#banner2mobile",
+      "rich-text#promocoesmobile",
+      "slider-layout#homemobile"
     ]
+  },
+  "rich-text#promocoesmobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Aproveite nossas promoções",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
   },
   "info-card#banner1mobile": {
     "props": {
       "id": "bannermini",
       "isFullModeStyle": true,
-      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/nostalgia.png",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/nostalgiamobile.png",
       "headline": "Sessão Nostalgia",
       "subhead": "Encontre os jogos favoritos da sua infância.",
       "callToActionText": "Saiba mais",
@@ -234,7 +258,7 @@
     "props": {
       "id": "bannermini",
       "isFullModeStyle": true,
-      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/olimpiadas.png",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/olimpiadasmobile.png",
       "headline": "No clima das Olimpíadas",
       "subhead": "Os melhores jogos esportivos estão aqui.",
       "callToActionText": "Saiba mais",
