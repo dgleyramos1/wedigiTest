@@ -15,7 +15,13 @@
     align-items: center;
 }
 .flexColChild--infoCol {
-    width: 427px;
+    width: 470px;
     height: 200px;
+}
+
+.flexRow--plataformas {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
     margin-bottom: 80px;
 }

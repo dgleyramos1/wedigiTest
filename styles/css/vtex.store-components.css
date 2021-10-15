@@ -68,21 +68,10 @@
     position: absolute;
     width: 374px;
     height: 32px;
-    top: 350px;
+    top: 300px;
     text-align: center;
 }
-  
-.infoCardCallActionContainer--bannerOne {
-    color: white;
-    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
-    border-radius: 5px;
-    border: transparent;
-}
-  
-.infoCardCallActionContaine--bannerOne:hover {
-    color: gray;
-    background: linear-gradient(90deg, rgba(29,184,251,1) 0%, rgba(21,138,188,1) 100%);
-}
+
 
 .infoCardContainer--bannerOne {
     position: relative;
@@ -95,7 +84,7 @@
 .infoCardContainer--bannerOneMobile {
     position: relative;
     left: 0px;
-    top: -110px;
+    top: 0px;
     margin-bottom: 0;
 }
 
@@ -202,4 +191,116 @@
 
 .container {
     margin-bottom: 80px;
+}
+
+.infoCardContainer--bannerEmbreve {
+    height: 720px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    border: none;
+}
+.infoCardTextContainer--bannerEmbreve{
+    text-align: right;
+    width: 400px;
+    margin-right: 237px;
+    margin-top: -100px;
+    padding: 0;
+}
+
+.infoCardHeadline--bannerEmbreve {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 52px;
+    /* identical to box height, or 113% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Primário / Dark */
+
+    color: #06092B;
+    margin: 0;
+}
+.infoCardSubhead--bannerEmbreve {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    width: 182px;
+    height: 56px;
+    color: white;
+    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
+    border-radius: 5px;
+    border: none;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.infoCardContainer--bannerEmbrevemobile {
+    width: 330px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    border: none;
+}
+.infoCardTextContainer--bannerEmbrevemobile {
+    text-align: right;
+    width: 250px;
+}
+.infoCardHeadline--bannerEmbrevemobile {
+    /* Heading 3 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #06092B;
+}
+
+.infoCardSubhead--bannerEmbrevemobile {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardCallActionContainer--bannerEmbrevemobile .vtex-button {
+    width: 150px;
 }

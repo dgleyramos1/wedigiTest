@@ -11,8 +11,31 @@
       "rich-text#destaquesdesktop",
       "slider-layout#homedesktop",
       "rich-text#plataformadesktop",
-      "flex-layout.row#plataformas"      
+      "flex-layout.row#plataformas",
+      "flex-layout.row#embreve"      
     ]
+  },
+  "flex-layout.row#embreve": {
+    "props": {
+      "blockClass": "embreve"
+    },
+    "children": [
+      "info-card#embreve"
+    ]
+  },
+  "info-card#embreve": {
+    "props": {
+      "id": "bannerEmbreve",
+      "isFullModeStyle": true,
+      "textAlignment": "RIGHT",
+      "textPosition": "RiGHT",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/BackgroundCard.png",
+      "headline": "Vem aí em Outubro Far Cry 6",
+      "subhead": "para Xbox One, PS4 e PC",
+      "callToActionText": "Reservar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerEmbreve"
+    }
   },
   "info-card#paineldesktop": {
     "props": {
@@ -47,6 +70,9 @@
     }
   },
   "flex-layout.row#plataformas": {
+    "props": {
+      "blockClass": "plataformas"
+    },
     "children": [
       "flex-layout.col#playstation",
       "flex-layout.col#xbox",
@@ -130,8 +156,23 @@
       "rich-text#destaquesmobile",
       "slider-layout#homemobile",
       "rich-text#plataformamobile",
-      "flex-layout.row#plataformasmobile"
+      "flex-layout.row#plataformasmobile",
+      "info-card#embrevemobile"
     ]
+  },  
+  "info-card#embrevemobile": {
+    "props": {
+      "id": "bannerEmbreve",
+      "isFullModeStyle": true,
+      "textAlignment": "RIGHT",
+      "textPosition": "RiGHT",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/BackgroundCardmobile.png",
+      "headline": "Vem aí em Outubro Far Cry 6",
+      "subhead": "para Xbox One, PS4 e PC",
+      "callToActionText": "Reservar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerEmbrevemobile"
+    }
   },
   "flex-layout.row#plataformasmobile": {
     "props": {
