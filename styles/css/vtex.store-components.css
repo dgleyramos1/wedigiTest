@@ -242,7 +242,7 @@
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
-    width: 182px;
+    width: 150px;
     height: 56px;
     color: white;
     background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
@@ -300,7 +300,4 @@
     /* Neutro / White */
 
     color: #FFFFFF;
-}
-.infoCardCallActionContainer--bannerEmbrevemobile .vtex-button {
-    width: 150px;
 }

@@ -12,8 +12,20 @@
       "slider-layout#homedesktop",
       "rich-text#plataformadesktop",
       "flex-layout.row#plataformas",
-      "flex-layout.row#embreve"      
+      "flex-layout.row#embreve",
+      "rich-text#altadesktop",
+      "slider-layout#homedesktop"
     ]
+  },
+  "rich-text#altadesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Em alta",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
   },
   "flex-layout.row#embreve": {
     "props": {
@@ -157,8 +169,20 @@
       "slider-layout#homemobile",
       "rich-text#plataformamobile",
       "flex-layout.row#plataformasmobile",
-      "info-card#embrevemobile"
+      "info-card#embrevemobile",
+      "rich-text#altamobile",
+      "slider-layout#homemobile"
     ]
+  },
+  "rich-text#altamobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Em alta",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
   },  
   "info-card#embrevemobile": {
     "props": {
