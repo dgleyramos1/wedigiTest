@@ -6,16 +6,16 @@
     ]
   },
   "responsive-layout.desktop": {
-    "children": ["info-card#paineldesktop"]
-  },
-  "responsive-layout.phone": {
-    "children": ["info-card#painelmobile"]
+    "children": [
+      "info-card#paineldesktop",
+      "slider-layout#home"
+    ]
   },
   "info-card#paineldesktop": {
     "props": {
       "id": "bannerOne",
       "isFullModeStyle": true,
-      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/imagens-wdigi/main/fullbanner.png",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/fullbanner.png",
       "headline": "Red Dead Redemption II",
       "subhead": "Já disponível para PlayStation e PC",
       "callToActionText": "Comprar",
@@ -23,13 +23,19 @@
       "blockClass": "bannerOne"
     }
   },
+  "responsive-layout.phone": {
+    "children": [
+      "info-card#painelmobile",
+      "__fold__"
+    ]
+  },
   "info-card#painelmobile": {
     "props": {
       "id": "bannerOne",
       "isFullModeStyle": false,
       "textAlignment": "center",
       "textPosition": "center",
-      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/imagens-wdigi/main/fullbannermobile.png",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/fullbannermobile.png",
       "headline": "Red Dead Redemption II",
       "subhead": "Já disponível para PlayStation e PC",
       "callToActionText": "Comprar",
