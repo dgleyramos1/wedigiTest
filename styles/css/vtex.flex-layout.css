@@ -11,4 +11,6 @@
 
 .flexRowContent--main-header-mobile{
     background: #06092B;
+    display: flex;
+    align-items: center;
 }

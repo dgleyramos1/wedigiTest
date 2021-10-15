@@ -3,10 +3,6 @@
     background-color:#1DB8FB;
 }
 
-.notificationBarContainer--notificacao{
-    background: url("../../img/iconeFrete.png") left center no-repeat;
-}
-
 .autoCompleteOuterContainer{
     background: none;
     color: white;
@@ -19,3 +15,81 @@
 .searchIcon{
     color: #fff;
 }
+
+.infoCardTextContainer--bannerOne{
+    position: absolute;
+    width: 565px;
+    height: 52px;
+    left: 60px;
+    top: 530px;
+}
+
+.infoCardHeadline--bannerOne {
+    font-family: "Poppins", serif;
+    font-size: 46px;
+    font-weight: normal;
+    color: white;   
+}
+.infoCardHeadline--bannerOneMobile{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.infoCardSubhead--bannerOne {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin-top: 0;
+}
+.infoCardSubhead--bannerOneMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.infoCardTextContainer--bannerOneMobile {
+    position: absolute;
+    width: 374px;
+    height: 32px;
+    top: 440px;
+    text-align: center;
+}
+  
+.infoCardCallActionContainer--bannerOne {
+    color: white;
+    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
+    border-radius: 5px;
+    border: transparent;
+}
+  
+.infoCardCallActionContaine--bannerOne:hover {
+    color: gray;
+    background: linear-gradient(90deg, rgba(29,184,251,1) 0%, rgba(21,138,188,1) 100%);
+}
+
+.infoCardContainer--bannerOne {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 740px;
+    width: 100%;
+    border: none;
+}
+

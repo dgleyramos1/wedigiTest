@@ -1,7 +1,40 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ]
+  },
+  "responsive-layout.desktop": {
+    "children": ["info-card#paineldesktop"]
+  },
+  "responsive-layout.phone": {
+    "children": ["info-card#painelmobile"]
+  },
+  "info-card#paineldesktop": {
+    "props": {
+      "id": "bannerOne",
+      "isFullModeStyle": true,
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/imagens-wdigi/main/fullbanner.png",
+      "headline": "Red Dead Redemption II",
+      "subhead": "Já disponível para PlayStation e PC",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerOne"
+    }
+  },
+  "info-card#painelmobile": {
+    "props": {
+      "id": "bannerOne",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "center",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/imagens-wdigi/main/fullbannermobile.png",
+      "headline": "Red Dead Redemption II",
+      "subhead": "Já disponível para PlayStation e PC",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "bannerOneMobile"
+    }
   }
 }

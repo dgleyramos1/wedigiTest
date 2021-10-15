@@ -49,7 +49,6 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "search-bar",
       "login",
       "minicart.v2"
     ]
@@ -107,9 +106,9 @@
   "flex-layout.row#2mobile": {
     "children": [
       "drawer",
+      "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -119,11 +118,6 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
-    }
-  },
-  "login": {
-    "props":{
-      "blockClass": "botaoLogin"
     }
   },
   "drawer": {
@@ -152,7 +146,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://www.wedigi.com.br/wp-content/themes/wedigi-theme/assets/images/logo-wedigi.png",
-      "width": "70"
+      "width": "120"
     }
   }
 }
