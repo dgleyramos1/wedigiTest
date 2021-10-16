@@ -1,0 +1,42 @@
+{
+    "store.custom#categoria": {
+      "blocks": [
+        "responsive-layout.desktop#categoria",
+        "responsive-layout.phone#categoria"
+      ]
+    },
+    "responsive-layout.desktop#categoria": {
+        "children": [
+            "info-card#bannerPrincipal"
+        ]
+    },
+    "responsive-layout.phone#categoria": {
+        "children": [
+            "info-card#bannerPrincipalmobile"
+        ]
+    },
+    "info-card#bannerPrincipal": {
+        "props": {
+            "blockClass": "infoCategoria",
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/CategoriaInfocard.png",
+            "headline": "Ação / Aventura",
+            "subhead": "O gênero ação/aventura é, possivelmente, o maior gênero de todo o universo de videogames. Iniciado com Adventure (Atari 2600), em 1979, ele é a junção de mecânicas de dois gêneros já muito populares que resultou em uma fórmula de “fazer jogos” que se encaixa em muitas jogabilidades, histórias e estilos de narrativa diferentes.",
+            "textAlignment": "center"
+        }
+      },
+      "info-card#bannerPrincipalmobile": {
+        "props": {
+            "blockClass": "infoCategoriaMobile",
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/infoBannermobile.png",
+            "headline": "Ação / Aventura",
+            "subhead": "O gênero ação/aventura é, possivelmente, o maior gênero de todo o universo de videogames. Iniciado com Adventure (Atari 2600), em 1979, ele é a junção de mecânicas de dois gêneros já muito populares que resultou em uma fórmula de “fazer jogos” que se encaixa em muitas jogabilidades, histórias e estilos de narrativa diferentes.",
+            "textAlignment": "center"
+        }
+      }
+  }

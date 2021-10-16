@@ -419,3 +419,126 @@
     width: 82px;
     height: 30px; 
 }
+
+
+
+
+
+.infoCardContainer--infoCategoria {
+    background: #1DB8FB;
+    height: 545px;
+    border: none;
+}
+.infoCardImageContainer--infoCategoria {
+    width: 1260px;
+    height: 560px;    
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+
+.infoCardImage--infoCategory {
+    width: 1350px;
+    height: 560px;
+}
+.infoCardTextContainer--infoCategoria {
+    width: 580px;
+    margin-left: 60px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoCardCallActionContainer--infoCategoria {
+    display: none;
+}
+
+
+.infoCardSubhead--infoCategoria {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.infoCardHeadline--infoCategoria {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 52px;
+    /* identical to box height, or 113% */
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    
+}
+
+.infoCardCallActionContainer--infoCategoriaMobile {
+    display: none;
+}
+
+.infoCardSubhead--infoCategoriaMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.infoCardHeadline--infoCategoriaMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    
+}
+.infoCardTextContainer--infoCategoriaMobile {
+    width: 320px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoCardContainer--infoCategoriaMobile {
+    background: #1DB8FB;
+    height: 747px;;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    justify-content: end;
+}
+
+.infoCardImage--infoCategoriaMobile {
+    width: 414px;
+    height: 350px;
+    margin-bottom: -20px;
+}
