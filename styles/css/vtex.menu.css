@@ -1,3 +1,43 @@
 .styledLinkContent{
     color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
 }
+.styledLinkContent--menuTitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.styledLinkContent--menuLink {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    padding: 0;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+}
+
