@@ -29,4 +29,57 @@
     padding: 0;
     margin: 0 auto;
     margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.flexRowContent--linhaImagensMobile {
+    width: 315px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.flexCol--colunasConteudo {
+    width: 250px;
+    padding-left: auto;
+}
+
+.flexCol--colunasConteudoDuplo {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.flexCol--colunaPayment {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColChild--payment-methods {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flexRowContent--linha1mobile {
+    margin: 0 auto;
+    padding-left: 5px;
+}
+
+.flexCol--colunasConteudoDuplomobile {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }

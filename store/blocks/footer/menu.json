@@ -91,72 +91,83 @@
             "noFollow": false,
             "tagTitle": "LOJAS OFICIAIS",
             "text": "LOJAS OFICIAIS"
-          }
+            }
         }
-      },
-      "menu-item#sobre": {
-        "props": {
-          "id": "menu-item-sobre",
-          "blockClass": "menuLink",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "SOBRE NÓS",
-            "text": "SOBRE NÓS"
-          }
+    },
+    "menu-item#sobre": {
+    "props": {
+        "id": "menu-item-sobre",
+        "blockClass": "menuLink",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SOBRE NÓS",
+        "text": "SOBRE NÓS"
         }
-      },
-      "menu-item#tabela": {
-        "props": {
-          "id": "menu-item-tabela",
-          "blockClass": "menuLink",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "TABELA DE MEDIDAS",
-            "text": "TABELA DE MEDIDAS"
-          }
+    }
+    },
+    "menu-item#tabela": {
+    "props": {
+        "id": "menu-item-tabela",
+        "blockClass": "menuLink",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TABELA DE MEDIDAS",
+        "text": "TABELA DE MEDIDAS"
         }
-      },
-      "menu-item#devolucoes": {
-        "props": {
-          "id": "menu-item-devolucoes",
-          "blockClass": "menuLink",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "TROCAS E DEVOLUÇÕES",
-            "text": "TROCAS E DEVOLUÇÕES"
-          }
+    }
+    },
+    "menu-item#devolucoes": {
+    "props": {
+        "id": "menu-item-devolucoes",
+        "blockClass": "menuLink",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TROCAS E DEVOLUÇÕES",
+        "text": "TROCAS E DEVOLUÇÕES"
         }
-      },
-  
-    "vtex.menu@2.x:menu#footer-decoration": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
-      ]
+    }
     },
   
-    "menu-item#smartphones": {
+    "vtex.menu@2.x:menu#footer-redesocial": {
       "props": {
-        "id": "menu-item-smartphones",
+        "orientation": "vertical",
+        "blockClass": "redes"
+      },
+      "children": [
+        "menu-item#instagram",
+        "flex-layout.row#imagens"
+      ]
+    },
+    "flex-layout.row#imagens":{
+        "props": {
+            "blockClass": "linhaImagens"
+        },
+        "children": [
+            "image#1insta",
+            "image#2insta",
+            "image#3insta"
+        ]
+    },
+  
+    "menu-item#instagram": {
+      "props": {
+        "id": "menu-item-instagram",
+        "blockClass": "menuTitle",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -164,42 +175,28 @@
           "type": "internal",
           "href": "/decoration/smartphones",
           "noFollow": true,
-          "tagTitle": "Smartphones",
-          "text": "Smartphones"
+          "tagTitle": "Instagram",
+          "text": "Siga @wedigi"
         }
       }
     },
-  
-    "menu-item#videogames": {
-      "props": {
-        "id": "menu-item-videogames",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/decoration/videogames",
-          "noFollow": true,
-          "tagTitle": "Videogames",
-          "text": "Videogames"
+    "image#1insta": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta1.png",
+            "blockClass": "redeImagem"
         }
-      }
     },
-  
-    "menu-item#tvs": {
-      "props": {
-        "id": "menu-item-tvs",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/decoration/tvs",
-          "noFollow": true,
-          "tagTitle": "TVs",
-          "text": "TVs"
+    "image#2insta": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta2.png",
+            "blockClass": "redeImagem"
         }
-      }
+    },
+    "image#3insta": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta3.png",
+            "blockClass": "redeImagem"
+        }
     },
   
     
@@ -211,60 +208,58 @@
         "orientation": "vertical"
       },
       "children": [
+        "menu-item#institucional-mobile",
         "menu-item#ajuda-mobile",
-        "menu-item#decoration-mobile",
-        "menu-item#sale-mobile"
+        "menu-item#atendimento-mobile",
+        "menu-item#instagramMobile",
+        "flex-layout.row#imagensMobile"
       ]
     },
-  
-    
-  
-    "menu-item#decoration-mobile": {
+    "menu-item#instagramMobile": {
       "props": {
+        "id": "menu-item-instagram",
+        "blockClass": "menuTitleMobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
         "itemProps": {
-          "tagTitle": "Decoration",
-          "text": "Decoration"
+          "type": "internal",
+          "href": "/decoration/smartphones",
+          "noFollow": true,
+          "tagTitle": "Instagram",
+          "text": "Siga @wedigi"
         }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-    },
-    "vtex.menu@2.x:submenu.accordion#decoration": {
-      "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+      }
     },
   
-    "vtex.menu@2.x:menu#footer-decoration-mobile": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
-      ]
+    "flex-layout.row#imagensMobile":{
+    "props": {
+        "blockClass": "linhaImagensMobile"
     },
-  
-    "menu-item#sale-mobile": {
-      "props": {
-        "itemProps": {
-          "tagTitle": "Sale",
-          "text": "Sale"
+    "children": [
+        "image#1instamobile",
+        "image#2instamobile",
+        "image#3instamobile"
+        ]
+    },
+
+    "image#1instamobile": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta1.png",
+            "blockClass": "redeImagemmobile"
         }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
     },
-    "vtex.menu@2.x:submenu.accordion#sale": {
-      "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+    "image#2instamobile": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta2.png",
+            "blockClass": "redeImagemmobile"
+        }
     },
-  
-    "vtex.menu@2.x:menu#footer-sale-mobile": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
-      ]
+    "image#3instamobile": {
+        "props":{
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/post/postinsta3.png",
+            "blockClass": "redeImagemmobile"
+        }
     },
 
 
@@ -274,6 +269,7 @@
     "menu-item#ajuda-mobile": {
         "props": {
             "id": "menu-item-category-ajuda",
+            "blockClass": "menuTitleMobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -281,8 +277,8 @@
             "type": "internal",
             "href": "/clothing/d",
             "noFollow": true,
-            "tagTitle": "ajuda",
-            "text": "ajuda"
+            "tagTitle": "Ajuda",
+            "text": "Ajuda"
             }
         },
         "blocks": ["vtex.menu@2.x:submenu.accordion#ajuda"]
@@ -296,10 +292,10 @@
             "orientation": "vertical"
         },
         "children": [
-            "menu-item#perguntas",
-            "menu-item#termos",
-            "menu-item#politicas",
-            "menu-item#comocomprar"
+            "menu-item#perguntasmobile",
+            "menu-item#termosmobile",
+            "menu-item#politicasmobile",
+            "menu-item#comocomprarmobile"
         ]
     },
     "vtex.menu@2.x:menu#footer-ajuda": {
@@ -318,20 +314,20 @@
 
   
     "menu-item#ajuda": {
-    "props": {
-        "id": "menu-item-category-ajuda",
-        "blockClass": "menuTitle",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Ajuda",
-        "text": "Ajuda"
+        "props": {
+            "id": "menu-item-category-ajuda",
+            "blockClass": "menuTitle",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Ajuda",
+            "text": "Ajuda"
+            }
         }
-    }
     },
   
     "menu-item#perguntas": {
@@ -401,6 +397,76 @@
         }
       }
     },
+    "menu-item#perguntasmobile": {
+        "props": {
+          "id": "menu-item-perguntas",
+          "blockClass": "menuLinkmobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/shorts",
+            "noFollow": false,
+            "tagTitle": "PERGUNTAS FREQUENTES",
+            "text": "PERGUNTAS FREQUENTES"
+          }
+        }
+    },
+    
+    "menu-item#termosmobile": {
+        "props": {
+            "id": "menu-item-termos",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/clothing/tank-tops",
+            "noFollow": false,
+            "tagTitle": "TERMOS DE USO",
+            "text": "TERMOS DE USO"
+            }
+        }
+    },
+    
+    "menu-item#politicasmobile": {
+        "props": {
+            "id": "menu-item-politicas",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/clothing/shirts",
+            "noFollow": false,
+            "tagTitle": "POLÍTICAS DE PRIVACIDADE",
+            "text": "POLÍTICAS DE PRIVACIDADE"
+            }
+        }
+    },
+    
+    "menu-item#comocomprarmobile": {
+        "props": {
+        "id": "menu-item-comocomprar",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/clothing/sweatshirt",
+            "noFollow": false,
+            "tagTitle": "COMO COMPRAR",
+            "text": "COMO COMPRAR"
+            }
+        }
+    },
+
+
+
 
 
 
@@ -416,9 +482,9 @@
           "menu-item#whatsapp",
           "menu-item#email"
         ]
-      },
+    },
     
-      "menu-item#atendimento": {
+    "menu-item#atendimento": {
         "props": {
           "id": "menu-item-atendimento",
           "blockClass": "menuTitle",
@@ -433,9 +499,9 @@
             "text": "Atendimento"
           }
         }
-      },
+    },
     
-      "menu-item#tel": {
+    "menu-item#tel": {
         "props": {
           "id": "menu-item-telefone",
           "blockClass": "menuLink",
@@ -450,9 +516,9 @@
             "text": "TELEFONE: (11) 99999-0000"
           }
         }
-      },
+    },
     
-      "menu-item#whatsapp": {
+    "menu-item#whatsapp": {
         "props": {
           "id": "menu-item-whatsapp",
           "blockClass": "menuLink",
@@ -467,8 +533,8 @@
             "text": "WHATSAPP: (11) 99999-0000"
           }
         }
-      },
-      "menu-item#email": {
+    },
+    "menu-item#email": {
           "props": {
             "id": "menu-item-email",
             "blockClass": "menuLink",
@@ -482,6 +548,238 @@
               "tagTitle": "email",
               "text": "EMAIL: CONTATO@WEDIGI.COM.BR"
             }
-          }
         }
-  }
+    },
+
+
+
+
+    "menu-item#institucional-mobile": {
+        "props": {
+            "id": "menu-item-category-institucional",
+            "blockClass": "menuTitleMobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Institucional",
+            "text": "Institucional"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+        },
+        "vtex.menu@2.x:submenu.accordion#institucional": {
+        "children": ["vtex.menu@2.x:menu#institucional-accordion"]
+        },
+        
+        "vtex.menu@2.x:menu#institucional-accordion": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#faleconoscomobile",
+            "menu-item#cuponsmobile",
+            "menu-item#fretemobile",
+            "menu-item#lojasmobile",
+            "menu-item#sobremobile",
+            "menu-item#tabelamobile",
+            "menu-item#devolucoesmobile"
+        ]
+    },
+
+    "menu-item#faleconoscomobile": {
+        "props": {
+            "id": "menu-item-faleconosco",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "FALE CONOSCO",
+            "text": "FALE CONOSCO"
+            }
+        }
+    },
+    "menu-item#cuponsmobile": {
+        "props": {
+            "id": "menu-item-cupons",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "CUPONS",
+            "text": "CUPONS"
+            }
+        }
+    },
+    "menu-item#fretemobile": {
+        "props": {
+            "id": "menu-item-frete",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "FRETE GRÁTIS",
+            "text": "FRETE GRÁTIS"
+            }
+        }
+    },
+    "menu-item#lojasmobile": {
+        "props": {
+        "id": "menu-item-lojas",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "LOJAS OFICIAIS",
+            "text": "LOJAS OFICIAIS"
+            }
+        }
+    },
+    "menu-item#sobremobile": {
+        "props": {
+        "id": "menu-item-sobre",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "SOBRE NÓS",
+            "text": "SOBRE NÓS"
+            }
+        }
+    },
+    "menu-item#tabelamobile": {
+        "props": {
+        "id": "menu-item-tabela",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "TABELA DE MEDIDAS",
+            "text": "TABELA DE MEDIDAS"
+            }
+        }
+    },
+    "menu-item#devolucoesmobile": {
+        "props": {
+        "id": "menu-item-devolucoes",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "TROCAS E DEVOLUÇÕES",
+            "text": "TROCAS E DEVOLUÇÕES"
+            }
+        }
+    },
+    "menu-item#atendimento-mobile": {
+        "props": {
+            "id": "menu-item-category-atendimento",
+            "blockClass": "menuTitleMobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Atendimento",
+            "text": "Atendimento"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
+    },
+    "vtex.menu@2.x:submenu.accordion#atendimento": {
+        "children": ["vtex.menu@2.x:menu#atendimento-accordion"]
+    },
+        
+    "vtex.menu@2.x:menu#atendimento-accordion": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#telmobile",
+            "menu-item#whatsappmobile",
+            "menu-item#emailmobile"
+        ]
+    },
+    "menu-item#telmobile": {
+        "props": {
+            "id": "menu-item-telefone",
+            "blockClass": "menuLinkmobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/bags/backpacks",
+            "noFollow": true,
+            "tagTitle": "telefone",
+            "text": "TELEFONE: (11) 99999-0000"
+            }
+        }
+    },
+            
+    "menu-item#whatsappmobile": {
+    "props": {
+        "id": "menu-item-whatsapp",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Whatsapp",
+        "text": "WHATSAPP: (11) 99999-0000"
+            }
+        }
+    },
+    "menu-item#emailmobile": {
+        "props": {
+        "id": "menu-item-email",
+        "blockClass": "menuLinkmobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/bags/necessaire",
+            "noFollow": true,
+            "tagTitle": "email",
+            "text": "EMAIL: CONTATO@WEDIGI.COM.BR"
+            }
+        }
+    }
+}

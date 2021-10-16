@@ -26,6 +26,9 @@
 }
 .styledLinkContent--menuLink {
     font-family: "Poppins";
+    margin-left: 0px;
+    padding-left: 0;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -35,9 +38,48 @@
     letter-spacing: 0.02em;
 
     /* Neutro / White */
-
     color: #FFFFFF;
 
     opacity: 0.75;
 }
 
+
+.menuContainer--redes {
+    width: 420px;
+}
+.menuContainer--redesmobile {
+    width: 360px;
+}
+
+.styledLinkContent--menuTitleMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+
+.styledLinkContent--menuLinkmobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+
+}

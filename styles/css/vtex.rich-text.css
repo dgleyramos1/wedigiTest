@@ -39,3 +39,45 @@
     letter-spacing: 0.02em;
     margin-bottom: 50px;
 }
+
+.paragraph--footer {
+    width: 250px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+}
+
+.paragraph--footerMobile {
+    width: 250px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.container--footerMobile {
+    display: flex;
+    justify-content: center;
+   
+}

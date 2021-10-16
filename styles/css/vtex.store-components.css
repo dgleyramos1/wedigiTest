@@ -378,3 +378,44 @@
 
     color: #FFFFFF;
 }
+
+.imageElement--redeImagem {
+    width: 132px;
+    height: 132px;
+}
+
+.imageElement--redeImagemmobile {
+    width: 90px;
+    height: 90px;
+}
+
+.imageElement--imagemFooter{
+    width: 71px;
+    height: 30px;
+    margin-left: 40px;   
+}
+.imageElement--imagemFooter1{
+    width: 82px;
+    height: 30px; 
+}
+.imageElement--payment{
+    width: 348px;
+    height: 30px;  
+    margin: 0 auto;
+}
+.imageElement--paymentmobile{
+    width: 320px;
+    height: 30px;  
+    margin: 0 auto;
+}
+
+.imageElement--imagemFootermobile{
+    width: 71px;
+    height: 30px;
+    margin-left: 40px;   
+}
+.imageElement--imagemFooter1mobile{
+    margin-bottom: -10px;
+    width: 82px;
+    height: 30px; 
+}

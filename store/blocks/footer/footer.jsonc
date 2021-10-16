@@ -5,8 +5,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -14,8 +13,7 @@
       "vtex.menu@2.x:menu#Institucional",
       "vtex.menu@2.x:menu#footer-ajuda",
       "vtex.menu@2.x:menu#footer-atendimento",
-      "footer-spacer",
-      "vtex.menu@2.x:menu#footer-decoration"
+      "vtex.menu@2.x:menu#footer-redesocial"
       
     ],
     "props": {
@@ -26,26 +24,62 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "flex-layout.col#1footerdesktop",
+      "flex-layout.col#2footerdesktop",
+      "flex-layout.col#3footerdesktop"
+    ],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "colunasCopy"
     }
   },
-  "accepted-payment-methods": {
+  "flex-layout.col#1footerdesktop":{
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "blockClass": "colunasConteudo"
+    },
+    "children": [
+      "rich-text#footer"
+    ]
+  },
+  "flex-layout.col#2footerdesktop":{
+    "props": {
+      "blockClass": "colunaPayment"
+    },
+    "children": [
+      "image#payments"
+    ]
+  },
+  "image#payments":{
+    "props": {
+      "blockClass": "payment",
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/Cart%C3%B5es.png"
+    }
+  },
+  "flex-layout.col#3footerdesktop":{
+    "props": {
+      "blockClass": "colunasConteudoDuplo"
+    },
+    "children": [
+      "image#1footer",
+      "image#2footer"
+    ]
+  },
+  "image#1footer": {
+    "props": {
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/vtex%20logo.png",
+      "blockClass": "imagemFooter1"
+    }
+  },
+  "image#2footer": {
+    "props": {
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/xlogo-wedigi.png",
+      "blockClass": "imagemFooter"
     }
   },
 
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
-    "props": {
-      "blockClass": "credits"
-    }
-  },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "DOG TRIP BRASIL - CNPJ 33.912.013/0001-96 Todos os direitos reservados",
       "blockClass": "footer"
     }
   },
@@ -66,9 +100,9 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "rich-text#footer-mobile",
+      "image#paymentsmobile",
+      "flex-layout.col#3footermobile"
     ],
     "props": {
       "blockClass": "payment-methods",
@@ -80,14 +114,42 @@
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "linha1mobile"
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "text": "DOG TRIP BRASIL - CNPJ 33.912.013/0001-96 Todos os direitos reservados",
+      "blockClass": "footerMobile"
+    }
+  },
+  "image#paymentsmobile":{
+    "props": {
+      "blockClass": "paymentmobile",
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/Cart%C3%B5es.png"
+    }
+  },
+  "flex-layout.col#3footermobile":{
+    "props": {
+      "blockClass": "colunasConteudoDuplomobile"
+    },
+    "children": [
+      "image#1footer",
+      "image#2footermobile"
+    ]
+  },
+  "image#1footermobile": {
+    "props": {
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/vtex%20logo.png",
+      "blockClass": "imagemFooter1"
+    }
+  },
+  "image#2footermobile": {
+    "props": {
+      "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/xlogo-wedigi.png",
+      "blockClass": "imagemFootermobile"
     }
   }
 }
