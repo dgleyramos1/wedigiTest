@@ -430,10 +430,10 @@
     border: none;
 }
 .infoCardImageContainer--infoCategoria {
-    width: 1260px;
+    width: 1250px;
     height: 560px;    
     margin-bottom: -20px;
-    margin-right: -20px;
+    margin-right: -3px;
 }
 
 .infoCardImage--infoCategory {
@@ -442,7 +442,7 @@
 }
 .infoCardTextContainer--infoCategoria {
     width: 580px;
-    margin-left: 60px;
+    margin-left: 100px;
     text-align: left;
     display: flex;
     align-items: flex-start;
@@ -529,7 +529,7 @@
 
 .infoCardContainer--infoCategoriaMobile {
     background: #1DB8FB;
-    height: 747px;;
+    height: 747px;
     border: none;
     display: flex;
     flex-direction: column;
@@ -541,4 +541,14 @@
     width: 414px;
     height: 350px;
     margin-bottom: -20px;
+}
+
+
+.imageElement--imagemCatalogo {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.imageElement--imagemcatalogomobile {
+    margin-bottom: 30px;    
 }

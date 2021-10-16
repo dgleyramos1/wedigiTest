@@ -83,3 +83,35 @@
     margin-bottom: 60px;
     margin-top: 60px;
 }
+
+.flexRowContent--linhaBotoes {
+    margin-bottom: 60px;
+    margin-top: 60px;    
+}
+.flexRowContent--linhaBotoesMobile {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.flexCol--colunaFiltros {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.flexRow--linhacatalogo2 {
+    margin-top: -75px;
+}
+.flexColChild--colunasCatalogo {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.flexCol--colunasCatalogo {
+    width: 300px;
+}

@@ -7,13 +7,303 @@
     },
     "responsive-layout.desktop#categoria": {
         "children": [
-            "info-card#bannerPrincipal"
+            "info-card#bannerPrincipal",
+            "flex-layout.row#botoes",
+            "flex-layout.row#catalogo",
+            "flex-layout.row#catalogo2",
+            "rich-text#carregar"
         ]
     },
     "responsive-layout.phone#categoria": {
         "children": [
-            "info-card#bannerPrincipalmobile"
+            "info-card#bannerPrincipalmobile",
+            "rich-text#noticiaMobile",
+            "flex-layout.row#botoesmobile",
+            "flex-layout.row#catalogomobile",
+            "rich-text#carregarmobile"
         ]
+    },
+    "rich-text#carregarmobile": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Carregar mais...",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "carregarmobile"
+        }
+    },
+    "rich-text#carregar": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Carregar mais...",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "carregar"
+        }
+    },
+    "flex-layout.row#catalogomobile": {
+        "children": [
+            "image#1jogomobile",
+            "image#2jogomobile",
+            "image#3jogomobile",
+            "image#4jogomobile",
+            "image#5jogomobile",
+            "image#6jogomobile",
+            "image#7jogomobile",
+            "image#8jogomobile"
+        ]
+    },
+    "image#1jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo1mobile.png"
+        }
+    },
+    "image#2jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo2mobile.png"
+        }
+    },
+    "image#3jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo3mobile.png"
+        }
+    },
+    "image#4jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo4mobile.png"
+        }
+    },
+    "image#5jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo5mobile.png"
+        }
+    },
+    "image#6jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo6mobile.png"
+        }
+    },
+    "image#7jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo7mobile.png"
+        }
+    },
+    "image#8jogomobile": {
+        "props": {
+            "blockClass": "imagemcatalogomobile",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo8mobile.png"
+        }
+    },
+
+    "flex-layout.row#catalogo": {
+        "props": {
+            "blockClass": "linhacatalogo"
+        },
+        "children": [
+            "flex-layout.col#1catalogo",
+            "flex-layout.col#2catalogo",
+            "flex-layout.col#3catalogo",
+            "flex-layout.col#4catalogo"
+        ]
+    },
+    "flex-layout.row#catalogo2": {
+        "props": {
+            "blockClass": "linhacatalogo2"
+        },
+        "children": [
+            "flex-layout.col#1catalogo",
+            "flex-layout.col#2catalogo",
+            "flex-layout.col#3catalogo",
+            "flex-layout.col#4catalogo"
+        ]
+    },
+    "flex-layout.col#1catalogo": {
+        "props": {
+            "blockClass": "colunasCatalogo"
+        },
+        "children": [
+            "image#1jogo",
+            "image#2jogo"
+        ]
+    },
+    "flex-layout.col#2catalogo": {
+        "props": {
+            "blockClass": "colunasCatalogo"
+        },
+        "children": [
+            "image#3jogo",
+            "image#4jogo"
+        ]
+    },
+    "flex-layout.col#3catalogo": {
+        "props": {
+            "blockClass": "colunasCatalogo"
+        },
+        "children": [
+            "image#5jogo",
+            "image#6jogo"
+        ]
+    },
+    "flex-layout.col#4catalogo": {
+        "props": {
+            "blockClass": "colunasCatalogo"
+        },
+        "children": [
+            "image#7jogo",
+            "image#8jogo"
+        ]
+    },
+    "image#1jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo1.png"
+        }
+    },
+    "image#2jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo2.png"
+        }
+    },
+    "image#3jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo3.png"
+        }
+    },
+    "image#4jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo4.png"
+        }
+    },
+    "image#5jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo5.png"
+        }
+    },
+    "image#6jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo6.png"
+        }
+    },
+    "image#7jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo7.png"
+        }
+    },
+    "image#8jogo": {
+        "props": {
+            "blockClass": "imagemCatalogo",
+            "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/jogo8.png"
+        }
+    },
+    "flex-layout.row#botoesmobile": {
+        "props": {
+            "blockClass": "linhaBotoesMobile"
+        },
+        "children": [
+            "flex-layout.col#filtromobile",
+            "flex-layout.col#ordenarmobile"
+        ]
+    },
+    "flex-layout.col#filtromobile": {
+        "props": {
+            "blockClass": "colunaFiltros"
+        },
+        "children": [
+            "rich-text#filtromobile"
+        ]
+    },
+    "flex-layout.col#ordenarmobile": {
+        "props": {
+            "blockClass": "colunaFiltros"
+        },
+        "children": [
+            "rich-text#ordenarmobile"
+        ]
+    },
+    "rich-text#filtromobile": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Filtrar busca",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ladoesquerdomobile"
+        }
+    },
+    "rich-text#ordenarmobile": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Ordenar Por",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ladodireitomobile"
+        }
+    },
+    "rich-text#noticiaMobile": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Encontramos 150 jogos para você se divertir",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "noticiaMobile"
+        }
+    },
+    "flex-layout.row#botoes": {
+        "props": {
+            "blockClass": "linhaBotoes"
+        },
+        "children": [
+            "rich-text#filtro",
+            "rich-text#noticia",
+            "rich-text#ordenar"
+        ]
+    },
+    "rich-text#filtro": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Filtrar busca",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ladoesquerdo"
+        }
+    },
+    "rich-text#noticia": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Encontramos 150 jogos para você se divertir",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "noticia"
+        }
+    },
+    "rich-text#ordenar": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Ordenar Por",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ladodireito"
+        }
     },
     "info-card#bannerPrincipal": {
         "props": {
