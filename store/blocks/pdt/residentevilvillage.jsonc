@@ -1,0 +1,142 @@
+{
+  "store.custom#produto-resident": {
+      "blocks": [
+        "responsive-layout.desktop#produto-resident",
+        "responsive-layout.phone#produto-resident"
+      ]
+  },
+  "responsive-layout.desktop#produto-resident": {
+    "children":[
+      "info-card#residentdesktop",
+      "slider-layout#residentdesktop",
+      "flex-layout.row#linhadetalhes",
+      "rich-text#destaquesresidentedesktop",
+      "slider-layout#homedesktop"
+    ]
+  },
+  "responsive-layout.phone#produto-resident": {
+    "children":[
+      "info-card#residentmobile",
+      "slider-layout#residentmobile",
+      "rich-text#destaquesresidentedesktop",
+      "slider-layout#homemobile"
+    ]
+  },
+  "info-card#residentmobile": {
+    "props": {
+      "id": "info-card-resident",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/BackgroundInfoProduto.png",
+      "headline": "Resident Evil Village",
+      "subhead": "Vivencie um jogo de terror como nenhum outro em Resident Evil Village, o oitavo lançamento da franquia lendária.",
+      "blockClass": "infoResidentmobile",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#residentdesktop": {
+    "props": {
+      "id": "info-card-resident",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/BackgroundInfoProduto.png",
+      "headline": "Resident Evil Village",
+      "subhead": "Vivencie um jogo de terror como nenhum outro em Resident Evil Village, o oitavo lançamento da franquia lendária.",
+      "blockClass": "infoResident",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#linhadetalhes": {
+    "props": {
+      "blockClass": "linhadetalhes"
+    },
+    "children": [
+      "flex-layout.col#colunadestaque",
+      "flex-layout.col#colunadetalhe"
+    ]
+  },
+  "flex-layout.col#colunadestaque": {
+    "props": {
+      "blockClass": "colunadestaque"
+    },
+    "children": [
+      "rich-text#descricaoresidentdesktop",
+      "info-card#residentdescricaodesktop"
+    ]
+  },
+  "flex-layout.col#colunadetalhe": {
+    "props": {
+      "blockClass": "colunadetalhe"
+    },
+    "children": [
+      "rich-text#detalhesresidentdesktop",
+      "flex-layout.row#linhadetalhes2"      
+    ]
+  },
+  "rich-text#descricaoresidentdesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Descrição",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "resident"
+    }
+  },
+  "info-card#residentdescricaodesktop": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "left",
+      "subhead": "Vivencie um jogo de terror como nenhum outro em Resident Evil Village, o oitavo lançamento da franquia lendária.<br/><br/>Ambientado anos depois dos eventos terríveis do aclamado Resident Evil 7 Biohazard, a nova história começa com Ethan Winters e sua esposa, Mia, vivendo pacificamente em um novo lugar, livres do pesadelo do passado. Mas quando estavam começando a construir uma nova vida, ocorre novamente uma tragédia.",
+      "blockClass": "infoDescricao",
+      "textAlignment": "left"
+    }
+  },
+  "rich-text#detalhesresidentdesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Detalhes",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "resident"
+    }
+  },
+  "flex-layout.row#linhadetalhes2": {
+    "props": {
+      "blockClass": "linhaDetalhes2"
+    },
+    "children": [
+      "info-card#residentdetalhe1desktop",
+      "info-card#residentdetalhe2desktop"
+    ]
+  },
+  "info-card#residentdetalhe1desktop": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "left",
+      "subhead": "Plataforma:<br/><br/>Lançamento:<br/><br/>Desenvolvedor:<br/><br/>Gênero:<br/><br/>Voz:<br/><br/><br/>Idiomas da Tela:",
+      "blockClass": "infoDescricao1",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#residentdetalhe2desktop": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "left",
+      "subhead": "PS4, PS5<br/><br/>07/05/2021<br/><br/>Capcom U.S.A., Inc<br/><br/>Ação, Terror<br/><br/>Alemão, Espanhol, Francês (França), Inglês, Italiano, Japonês, Português (Brasil), Russo<br/><br/>Alemão, Espanhol, Francês (França), Inglês, Italiano, Japonês, Português (Brasil), Russo, Árabe",
+      "blockClass": "infoDescricao2",
+      "textAlignment": "left"
+    }
+  },
+  "rich-text#destaquesresidentedesktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Você também deve gostar de",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "plataformadesktop"
+    }
+  }
+}

@@ -1,5 +1,8 @@
 {
     "store.custom#categoria": {
       "path": "/categoria"
+    },
+    "store.custom#produto-resident": {
+      "path": "/product/resident-evil-village"
     }
   }

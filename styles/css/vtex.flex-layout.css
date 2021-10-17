@@ -115,3 +115,26 @@
 .flexCol--colunasCatalogo {
     width: 300px;
 }
+
+
+.flexColChild--colunadetalhe {
+    width: 500px;
+    margin-left: 250px;
+}
+.flexCol--colunadetalhe {
+    width: 500px;
+}
+.flexCol--colunadestaque {
+    width: 1161px;
+}
+.flexColChild--colunadestaque {
+    width: 1161px;
+    margin-left: -260px;
+}
+.flexCol--colunadestaque {
+    width: 1161px;
+}
+
+.flexRow--linhadetalhes {
+    margin-bottom: 80px;
+}

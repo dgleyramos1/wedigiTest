@@ -1,0 +1,127 @@
+{
+    "slider-layout#residentdesktop": {
+      "children": ["image#1resident", "image#2resident","image#3resident", "image#4resident", "image#5resident", "image#6resident", "image#7resident", "image#8resident"],
+      "props": {
+          "blockClass": "residentSlider",
+        "itemsPerPage": 5,
+        "arrows": false,
+        "minItemsPerPage": 1,
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
+        }
+      }
+    },
+    "slider-layout#residentmobile": {
+      "children": ["image#1residentmobile", "image#2residentmobile","image#3residentmobile", "image#4residentmobile", "image#5residentmobile", "image#6residentmobile","image#7residentmobile", "image#8residentmobile"],
+      "props": {
+        "blockClass": "residentSliderMobile",
+        "arrows": false,
+        "minItemsPerPage": 1.5,
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": false
+        }
+      }
+    },
+  
+    "image#1resident": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider1.png",
+        "blockClass": "imagemResident"
+      }
+    },
+  
+    "image#2resident": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider2.png",
+        "blockClass": "imagemResident"
+      }
+    },
+    "image#3resident": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider3.png",
+        "blockClass": "imagemResident"
+      }
+    },
+    "image#4resident": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider4.png",
+        "blockClass": "imagemResident"
+      }
+    },
+    "image#5resident": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider5.png",
+        "blockClass": "imagemResident"
+      }
+    },
+    "image#6resident": {
+        "props": {
+          "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider6.png",
+          "blockClass": "imagemResident"
+        }
+      },
+      "image#7resident": {
+        "props": {
+          "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider7.png",
+          "blockClass": "imagemResident"
+        }
+      },
+      "image#8resident": {
+        "props": {
+          "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider8.png",
+          "blockClass": "imagemResident"
+        }
+      },
+    "image#1residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider1.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+  
+    "image#2residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider2.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#3residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider3.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#4residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider4.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#5residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider5.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#6residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider6.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#7residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider7.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    },
+    "image#8residentmobile": {
+      "props": {
+        "src": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/slider8.png",
+        "blockClass": "imagemResidentMobile"
+      }
+    }
+  }
+  
