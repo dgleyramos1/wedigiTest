@@ -18,6 +18,10 @@
     "children":[
       "info-card#residentmobile",
       "slider-layout#residentmobile",
+      "rich-text#descricaoresidentmobile",
+      "info-card#residentdescricaomobile",
+      "rich-text#detalhesresidentdesktop",
+      "flex-layout.row#linhadetalhesMobile",
       "rich-text#destaquesresidentedesktop",
       "slider-layout#homemobile"
     ]
@@ -27,10 +31,29 @@
       "id": "info-card-resident",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/BackgroundInfoProduto.png",
+      "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/pdt/BackgroundInfoProdutomobile.png",
       "headline": "Resident Evil Village",
       "subhead": "Vivencie um jogo de terror como nenhum outro em Resident Evil Village, o oitavo lançamento da franquia lendária.",
       "blockClass": "infoResidentmobile",
+      "textAlignment": "left"
+    }
+  },
+  "rich-text#descricaoresidentmobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Descrição",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "residentMobile"
+    }
+  },
+  "info-card#residentdescricaomobile": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "left",
+      "subhead": "Vivencie um jogo de terror como nenhum outro em Resident Evil Village, o oitavo lançamento da franquia lendária.<br/><br/>Ambientado anos depois dos eventos terríveis do aclamado Resident Evil 7 Biohazard, a nova história começa com Ethan Winters e sua esposa, Mia, vivendo pacificamente em um novo lugar, livres do pesadelo do passado. Mas quando estavam começando a construir uma nova vida, ocorre novamente uma tragédia.",
+      "blockClass": "infoDescricaoMobile",
       "textAlignment": "left"
     }
   },
@@ -137,6 +160,33 @@
       "textColor": "c-on-emphasis",
       "font": "t-heading-5",
       "blockClass": "plataformadesktop"
+    }
+  },
+  "flex-layout.row#linhadetalhesMobile": {
+    "props": {
+      "blockClass": "linhaDetalhesMobile"
+    },
+    "children": [
+      "info-card#residentdetalhe1mobile",
+      "info-card#residentdetalhe2mobile"
+    ]
+  },
+  "info-card#residentdetalhe1mobile": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "left",
+      "subhead": "Plataforma:<br/><br/>Lançamento:<br/><br/>Desenvolvedor:<br/><br/>Gênero:<br/><br/>Voz:<br/><br/><br/><br/><br/>Idiomas da Tela:",
+      "blockClass": "infoDetalheMobile1",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#residentdetalhe2mobile": {
+    "props": {
+      "id": "info-card-resident",
+      "textPosition": "right",
+      "subhead": "PS4, PS5<br/><br/>07/05/2021<br/><br/>Capcom U.S.A., Inc<br/><br/>Ação, Terror<br/><br/>Alemão, Espanhol, Francês (França), Inglês, Italiano, Japonês, Português (Brasil), Russo<br/><br/>Alemão, Espanhol, Francês (França), Inglês, Italiano, Japonês, Português (Brasil), Russo, Árabe",
+      "blockClass": "infoDetalheMobile2",
+      "textAlignment": "left"
     }
   }
 }

@@ -749,6 +749,9 @@
 .infoCardImageContainer--infoDescricao2 {
     display: none;
 }
+.infoCardImageContainer--infoDescricaoMobile {
+    display: none;
+}
 
 .infoCardTextContainer--infoDescricao1 {
     width: 100%;
@@ -812,7 +815,7 @@
 }
 
 .infoCardContainer--infoResidentmobile {
-    height: 400px;
+    height: 500px;
     border: none;
 }
 
@@ -841,4 +844,80 @@
     /* Neutro / White */
 
     color: #FFFFFF;
+}
+.infoCardTextContainer--infoResidentmobile {
+    margin-top: 100px;
+}
+
+.infoCardCallActionContainer--infoDescricaoMobile {
+    display: none;
+}
+
+.infoCardSubhead--infoDescricaoMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+
+
+.infoCardSubhead--infoDetalheMobile1 {
+    margin-left: 20px;
+    margin-top: -110px;
+    width: 120px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.infoCardTextContainer--infoDetalheMobile1 {
+    margin-top: 100px;
+}
+.infoCardContainer--infoDetalheMobile1 {
+    width: 50px;
+}
+
+.infoCardSubhead--infoDetalheMobile2 {
+    margin-top: -352px;
+    margin-left: 130px;
+    width: 177px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.infoCardCallActionContainer--infoDetalheMobile1 {
+    display: none;
+}
+.infoCardCallActionContainer--infoDetalheMobile2 {
+    display: none;
+}
+
+.infoCardImageContainer--infoDetalheMobile1 {
+    display: none;
+}
+.infoCardImageContainer--infoDetalheMobile2 {
+    display: none;
 }
