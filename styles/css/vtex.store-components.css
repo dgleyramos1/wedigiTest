@@ -552,3 +552,112 @@
 .imageElement--imagemcatalogomobile {
     margin-bottom: 30px;    
 }
+
+.infoCardContainer--informativo {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.infoCardCallActionContainer--informativo {
+    display: none;
+}
+
+.infoCardHeadline--informativo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    /* or 118% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.infoCardSubhead--informativo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+.infoCardTextContainer--informativo {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.infoCardContainer--informativomobile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+}
+.infoCardImage--informativomobile {
+    margin: 0 auto;
+}
+
+.infoCardImageContainer--informativomobile {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.infoCardHeadline--informativomobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.infoCardSubhead--informativomobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.infoCardTextContainer--informativomobile {
+    width: 90%;
+    margin-top: 60px;
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 60px;
+}
+
+
+.infoCardCallActionContainer--informativomobile {
+    display: none;
+}

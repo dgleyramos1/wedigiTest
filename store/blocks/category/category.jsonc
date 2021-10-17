@@ -11,7 +11,8 @@
             "flex-layout.row#botoes",
             "flex-layout.row#catalogo",
             "flex-layout.row#catalogo2",
-            "rich-text#carregar"
+            "rich-text#carregar",
+            "info-card#informativo"
         ]
     },
     "responsive-layout.phone#categoria": {
@@ -20,8 +21,33 @@
             "rich-text#noticiaMobile",
             "flex-layout.row#botoesmobile",
             "flex-layout.row#catalogomobile",
-            "rich-text#carregarmobile"
+            "rich-text#carregarmobile",
+            "info-card#informativomobile"
         ]
+    },
+    "info-card#informativomobile": {
+        "props": {
+          "id": "informativo",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/infoCardbottommobile.png",
+          "headline": "Como escolher o videogame ideal para você? <br/> Descubra dicas infalíveis!",
+          "subhead": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, vel vulputate sapien parturient pulvinar sagittis. Nibh vitae ut pretium, mauris. Potenti venenatis habitant nulla quam ante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. <br/> <br/> <br/> Purus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus pulvinar. Magna tempus, sit orci ornare ridiculus aenean. Sagittis, eu tellus hendrerit velit facilisi elit proin blandit. Quisque eget massa, neque, id. Ac id sed faucibus adipiscing viverra egestas etiam est tempor. Id dictum viverra ut diam ipsum, eget. Ut consectetur turpis gravida et magna diam feugiat enim pretium. Sit tristique tempus bibendum id vehicula sed parturient amet. Blandit at id aliquet quis. Neque, magna enim elit pulvinar sodales auctor habitant turpis. Diam consequat, volutpat proin id sed blandit pellentesque. In malesuada id nunc habitant ullamcorper integer quam.",
+          "blockClass": "informativomobile",
+          "textAlignment": "center"
+        }
+    },
+    "info-card#informativo": {
+        "props": {
+          "id": "informativo",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "https://raw.githubusercontent.com/dgleyramos1/wedigiTest/main/img/categoria/infoCardbottom.png",
+          "headline": "Como escolher o videogame ideal para você? <br/> Descubra dicas infalíveis!",
+          "subhead": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, vel vulputate sapien parturient pulvinar sagittis. Nibh vitae ut pretium, mauris. Potenti venenatis habitant nulla quam ante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. <br/> <br/> <br/> Purus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus pulvinar. Magna tempus, sit orci ornare ridiculus aenean. Sagittis, eu tellus hendrerit velit facilisi elit proin blandit. Quisque eget massa, neque, id. Ac id sed faucibus adipiscing viverra egestas etiam est tempor. Id dictum viverra ut diam ipsum, eget. Ut consectetur turpis gravida et magna diam feugiat enim pretium. Sit tristique tempus bibendum id vehicula sed parturient amet. Blandit at id aliquet quis. Neque, magna enim elit pulvinar sodales auctor habitant turpis. Diam consequat, volutpat proin id sed blandit pellentesque. In malesuada id nunc habitant ullamcorper integer quam.",
+          "blockClass": "informativo",
+          "textAlignment": "center"
+        }
     },
     "rich-text#carregarmobile": {
         "props": {
